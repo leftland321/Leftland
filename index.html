@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Left Land — Elm, siyasət, xəbərlər, musiqi və qısa filmlər</title>
+<meta name="description" content="Left Land: solçu baxışla elm, siyasət, gündəlik xəbərlər, kurslar, musiqilər, qısa filmlər və görüşlər. Yaşıl, Qırmızı və Qara abunəliklə daxil ol.">
+<meta name="keywords" content="Left Land, solçuluq, elm, siyasət, policy briefs, xəbərlər, kurslar, qısa filmlər, Azərbaycan">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Left Land">
+<meta property="og:description" content="Elm, siyasət, xəbərlər, kurslar, musiqilər, qısa filmlər və görüşlər.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23e10600'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Left Land","inLanguage":"az","description":"Elm, siyasət, xəbərlər, kurslar, musiqilər, qısa filmlər və görüşlər."}</script>
+<style>
+:root{--bg:#0b0b0b;--card:#161616;--line:#2a2a2a;--tx:#f2f2f2;--mut:#9a9a9a;--red:#e10600;--gr:#2ea043;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:inherit}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:#000;border-bottom:2px solid var(--red)}
+.bar{max-width:1000px;margin:auto;display:flex;align-items:center;gap:12px;padding:10px 14px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:20px;letter-spacing:.5px;cursor:pointer;color:#fff;text-decoration:none}
+.sp{flex:1}
+nav{max-width:1000px;margin:auto;display:flex;gap:4px;overflow-x:auto;padding:0 10px 8px}
+nav a{color:var(--mut);text-decoration:none;padding:6px 12px;border-radius:99px;white-space:nowrap;font-size:14px;cursor:pointer}
+nav a.on,nav a:hover{color:#fff;background:var(--red)}
+button{font:inherit;cursor:pointer;border:0;border-radius:8px;padding:8px 14px;background:var(--red);color:#fff;font-weight:600}
+button.g{background:transparent;border:1px solid var(--line);color:var(--tx)}
+main{max-width:1000px;margin:auto;padding:18px 14px 60px}
+h1{font-size:28px;margin:6px 0 4px}h1 span,h2 span{color:var(--red)}
+.sub{color:var(--mut);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;position:relative}
+.card h3{margin:0 0 6px;font-size:17px}.card p{margin:0;color:var(--mut);font-size:14px}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:99px;margin-bottom:8px;font-weight:700}
+.t1{background:var(--gr);color:#fff}.t2{background:var(--red);color:#fff}.t3{background:#000;color:#fff;border:1px solid #fff}
+.lock{opacity:.55}.lock::after{content:"🔒";position:absolute;top:12px;right:12px}
+.hero{border:1px solid var(--line);border-left:6px solid var(--red);background:linear-gradient(135deg,#1a0000,#0b0b0b);border-radius:12px;padding:22px;margin-bottom:20px}
+.hero h1{font-size:32px}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.plan{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:18px}
+.plan.green{border-color:var(--gr)}.plan.red{border-color:var(--red)}.plan.black{border-color:#fff}
+.price{font-size:32px;font-weight:800}.price small{font-size:14px;color:var(--mut);font-weight:400}
+.plan ul{padding-left:18px;color:var(--mut);font-size:14px}.plan button{width:100%;margin-top:6px}
+.modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;padding:16px;z-index:9}
+.modal.on{display:flex}
+.box{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--red);border-radius:14px;padding:20px;width:100%;max-width:380px}
+input{width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid var(--line);background:#0b0b0b;color:#fff;font:inherit}
+.msg{color:#ff6b66;font-size:13px;min-height:18px}
+footer{border-top:1px solid var(--line);text-align:center;color:var(--mut);font-size:13px;padding:18px}
+.who{font-size:13px;color:var(--mut)}
+</style>
+</head>
+<body>
+<header>
+<div class="bar">
+<a class="logo" href="#/"><svg width="34" height="34" viewBox="0 0 100 100" aria-label="Left Land loqosu"><circle cx="50" cy="50" r="46" fill="#e10600"/><path d="M50 4a46 46 0 0 0 0 92c-14-12-22-28-22-46S36 16 50 4z" fill="#000"/><path d="M50 4a46 46 0 0 1 0 92c14-12 22-28 22-46S64 16 50 4z" fill="#a80400"/><path d="M6 50h88M14 28h72M14 72h72" stroke="#000" stroke-width="3" fill="none"/></svg>Left Land</a>
+<div class="sp"></div>
+<span class="who" id="who"></span>
+<button class="g" id="authBtn">Daxil ol</button>
+</div>
+<nav id="nav"></nav>
+</header>
+<main id="app"></main>
+<footer>© Left Land — bütün hüquqlar qorunur.</footer>
+
+<div class="modal" id="modal"><div class="box">
+<h2 id="mt" style="margin:0 0 8px">Daxil ol</h2>
+<input id="em" type="email" placeholder="E-poçt" autocomplete="email">
+<input id="pw" type="password" placeholder="Şifrə (ən azı 6 simvol)" autocomplete="current-password">
+<div class="msg" id="msg"></div>
+<button id="go" style="width:100%">Davam et</button>
+<p style="text-align:center;margin:10px 0 0"><a href="#" id="sw" style="color:var(--red)">Hesabın yoxdur? Qeydiyyat</a></p>
+<p style="text-align:center;margin:6px 0 0"><a href="#" id="cl" style="color:var(--mut)">Bağla</a></p>
+</div></div>
+
+<script>
+var PL={0:{n:"Qonaq",c:"t0"},1:{n:"Yaşıl",c:"t1"},2:{n:"Qırmızı",c:"t2"},3:{n:"Qara",c:"t3"}};
+var PAGES=[
+["elm","Elm",2,"Elmi məqalələr","Elmi məqalələr, tədqiqatlar və analizlər. Yalnız sayt sahibi yeni yazı əlavə edə və düzəliş edə bilər.",[["Sinfi struktur və müasir kapitalizm","Elmi məqalə"],["Sosial siyasətin qiymətləndirilməsi metodları","Tədqiqat"],["Miqrasiya və əmək bazarı","Analiz"]]],
+["siyaset","Siyasət",2,"Policy briefs","Siyasət üzrə qısa analitik sənədlər (policy briefs). Müəllifin yazdıqları və yazacaqları.",[["Mənzil siyasəti: ictimai alternativlər","Policy brief"],["Sosial müdafiə sisteminin islahatı","Policy brief"],["Minimum əmək haqqı və yaşayış səviyyəsi","Policy brief"]]],
+["xeberler","Xəbərlər",1,"Günün xəbərləri","Hər gün günün xəbərləri solçu mövzularda, qısa filmlər şəklində.",[["Bu günün xəbər xülasəsi","Qısa video"],["Əməyin müdafiəsi: həftənin hadisələri","Qısa video"],["Dünyadan sosial hərəkatlar","Qısa video"]]],
+["kurslar","Kurslar",3,"Kurslar","Elm, siyasət və sosial tədqiqat üzrə onlayn kurslar.",[["Sosial siyasətə giriş","Kurs"],["Tədqiqat metodları","Kurs"],["Policy brief yazmaq sənəti","Kurs"]]],
+["musiqiler","Musiqilər",1,"Musiqilər","Müəllifin musiqiləri (Aİ ilə düzəldilib).",[["Qırmızı səhər","Mahnı"],["Fəhlə marşı (remiks)","Mahnı"],["Gecə sükutu","Mahnı"]]],
+["filmler","Qısa filmlər",1,"Qısa filmlər","Aİ ilə hazırlanmış qısa filmlər.",[["Divarın o biri üzü","Qısa film"],["Son növbə","Qısa film"],["Küçə çıraqları","Qısa film"]]],
+["gorusler","Görüşlər",3,"Görüşlər və konsaltinq","Müəllif ilə insanlar və şirkətlər üçün birbaşa görüş və konsaltinq.",[["Fərdi görüş (30 dəq)","Görüş"],["Təşkilat üçün konsaltinq","Konsaltinq"],["Policy konsultasiyası","Konsaltinq"]]]
+];
+var PRICES=[
+{r:1,n:"Yaşıl",p:"4.99",cls:"green",f:["Xəbərlərə baxış","Musiqilərə qulaq as","Qısa filmlərə baxış"]},
+{r:2,n:"Qırmızı",p:"12.99",cls:"red",f:["Yaşıl paketin hamısı","Elmi məqalələrə giriş","Policy briefs-ə giriş"]},
+{r:3,n:"Qara",p:"29.99",cls:"black",f:["Qırmızı paketin hamısı","Kurslar","Görüşlər və konsaltinq","Saytın bütün xidmətləri"]}
+];
+var U=null,mode="login";
+function ld(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+function hs(s){var h=0;for(var i=0;i<s.length;i++)h=(h*31+s.charCodeAt(i))|0;return String(h)}
+function rank(){return U?U.plan:0}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function topbar(){
+ var h=location.hash.replace("#/","")||"home";
+ var n='<a href="#/" class="'+(h=="home"?"on":"")+'">Ana səhifə</a>';
+ PAGES.forEach(function(p){n+='<a href="#/'+p[0]+'" class="'+(h==p[0]?"on":"")+'">'+p[1]+'</a>'});
+ n+='<a href="#/qiymetler" class="'+(h=="qiymetler"?"on":"")+'">Abunəlik</a>';
+ document.getElementById("nav").innerHTML=n;
+ document.getElementById("who").textContent=U?U.email+" · "+PL[U.plan].n:"";
+ document.getElementById("authBtn").textContent=U?"Çıxış":"Daxil ol";
+}
+function render(){
+ topbar();
+ var h=location.hash.replace("#/","")||"home",a=document.getElementById("app"),o="";
+ document.title=(h=="home"?"Left Land — Elm, siyasət, xəbərlər, musiqi və qısa filmlər":(h=="qiymetler"?"Abunəlik":(PAGES.filter(function(p){return p[0]==h})[0]||[0,"Left Land"])[1])+" — Left Land");
+ if(h=="home"){
+  o='<div class="hero"><h1>Left <span>Land</span></h1><p class="sub" style="margin:0 0 12px">Elm, siyasət, xəbərlər, kurslar, musiqilər, qısa filmlər və görüşlər — solçu baxışla.</p><a href="#/qiymetler"><button>Abunəliyə bax</button></a></div><div class="grid">';
+  PAGES.forEach(function(p){o+='<a href="#/'+p[0]+'" style="text-decoration:none;color:inherit"><div class="card"><span class="tag t'+p[2]+'">'+PL[p[2]].n+'</span><h3>'+p[3]+'</h3><p>'+p[4]+'</p></div></a>'});
+  o+='</div>';
+ } else if(h=="qiymetler"){
+  o='<h1>Abunəlik <span>paketləri</span></h1><p class="sub">Qiymətlər aylıqdır (AZN). İstənilən vaxt dəyişə və ya ləğv edə bilərsən.</p><div class="plans">';
+  PRICES.forEach(function(p){o+='<div class="plan '+p.cls+'"><h2 style="margin:0">'+p.n+'</h2><div class="price">'+p.p+' ₼<small> / ay</small></div><ul>'+p.f.map(function(x){return"<li>"+x+"</li>"}).join("")+'</ul><button data-buy="'+p.r+'">'+(rank()==p.r?"Aktiv paket":"Seç")+'</button></div>'});
+  o+='</div><p class="sub" style="margin-top:14px">Qeyd: ödəniş hələlik sınaq rejimindədir, real kart ödənişi bağlanmayıb.</p>';
+ } else {
+  var p=PAGES.filter(function(x){return x[0]==h})[0];
+  if(!p){location.hash="#/";return}
+  var ok=rank()>=p[2];
+  o='<h1>'+p[1]+'</h1><p class="sub">'+p[4]+'</p>';
+  if(!ok)o+='<div class="card" style="margin-bottom:14px;border-color:var(--red)"><b>Bu bölmə '+PL[p[2]].n+' paket və yuxarısı üçündür.</b><p style="margin:6px 0 10px">Məzmunu açmaq üçün abunə ol.</p><a href="#/qiymetler"><button>Paketlərə bax</button></a></div>';
+  o+='<div class="grid">';
+  p[5].forEach(function(i){o+='<div class="card '+(ok?"":"lock")+'"><span class="tag t'+p[2]+'">'+PL[p[2]].n+'</span><h3>'+esc(i[0])+'</h3><p>'+esc(i[1])+(ok?" · Məzmun tezliklə əlavə olunacaq":" · Qıfıllıdır")+'</p></div>'});
+  o+='</div>';
+ }
+ a.innerHTML=o;window.scrollTo(0,0);
+ a.querySelectorAll("[data-buy]").forEach(function(b){b.onclick=function(){buy(+b.getAttribute("data-buy"))}});
+}
+function buy(r){
+ if(!U){openM("reg");return}
+ if(confirm(PL[r].n+" paketi seçilsin? (sınaq ödənişi)")){U.plan=r;save();render()}
+}
+function save(){var us=ld("ll_users")||{};us[U.email]=U;sv("ll_users",us);sv("ll_cur",U.email)}
+function openM(m){mode=m;var t=m=="login";
+ document.getElementById("mt").textContent=t?"Daxil ol":"Qeydiyyat";
+ document.getElementById("sw").textContent=t?"Hesabın yoxdur? Qeydiyyat":"Hesabın var? Daxil ol";
+ document.getElementById("msg").textContent="";document.getElementById("modal").classList.add("on")}
+function closeM(){document.getElementById("modal").classList.remove("on")}
+document.getElementById("sw").onclick=function(e){e.preventDefault();openM(mode=="login"?"reg":"login")};
+document.getElementById("cl").onclick=function(e){e.preventDefault();closeM()};
+document.getElementById("authBtn").onclick=function(){
+ if(U){U=null;try{localStorage.removeItem("ll_cur")}catch(e){}render()}else openM("login")};
+document.getElementById("go").onclick=function(){
+ var e=document.getElementById("em").value.trim().toLowerCase(),p=document.getElementById("pw").value,m=document.getElementById("msg"),us=ld("ll_users")||{};
+ if(!/^\S+@\S+\.\S+$/.test(e)){m.textContent="E-poçt düzgün deyil.";return}
+ if(p.length<6){m.textContent="Şifrə ən azı 6 simvol olmalıdır.";return}
+ if(mode=="reg"){
+  if(us[e]){m.textContent="Bu e-poçt artıq qeydiyyatdadır.";return}
+  U={email:e,h:hs(p),plan:0};save();closeM();location.hash="#/qiymetler";render();
+ } else {
+  if(!us[e]||us[e].h!=hs(p)){m.textContent="E-poçt və ya şifrə səhvdir.";return}
+  U=us[e];sv("ll_cur",e);closeM();render();
+ }
+ document.getElementById("pw").value="";
+};
+window.addEventListener("hashchange",render);
+(function(){var c=ld("ll_cur"),us=ld("ll_users")||{};if(c&&us[c])U=us[c];render()})();
+</script>
+</body>
+</html>
